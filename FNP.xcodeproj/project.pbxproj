@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F4E5A6A1F5D6DE13409B1AC /* Pods_FNP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A817A75ED98C9FF900FE8E3 /* Pods_FNP.framework */; };
 		86038753269B70C900A4C185 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86038752269B70C900A4C185 /* BottomView.swift */; };
+		86038755269C44DF00A4C185 /* MediumVerticalRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86038754269C44DF00A4C185 /* MediumVerticalRateView.swift */; };
 		96155DB1268C91BD00228151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96155DB0268C91BD00228151 /* Assets.xcassets */; };
 		96155ECB268C97C700228151 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155DBF268C97C600228151 /* UIColorExtension.swift */; };
 		96155ECC268C97C700228151 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96155DC0268C97C600228151 /* Collection+Extension.swift */; };
@@ -289,6 +290,7 @@
 		552EAED5A2D2089EC7DCE480 /* Pods-FNP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNP.release.xcconfig"; path = "Target Support Files/Pods-FNP/Pods-FNP.release.xcconfig"; sourceTree = "<group>"; };
 		7CF21833B35E76B566CD8C48 /* Pods-FNP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNP.debug.xcconfig"; path = "Target Support Files/Pods-FNP/Pods-FNP.debug.xcconfig"; sourceTree = "<group>"; };
 		86038752269B70C900A4C185 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		86038754269C44DF00A4C185 /* MediumVerticalRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumVerticalRateView.swift; sourceTree = "<group>"; };
 		96155DA4268C91BB00228151 /* FNP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96155DB0268C91BD00228151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96155DB5268C91BD00228151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1545,6 +1547,7 @@
 				966FE1BA269C227900B8FC20 /* VerticalRateView.swift */,
 				966FE1BB269C227900B8FC20 /* HorizontalRateView.swift */,
 				966FE1BC269C227900B8FC20 /* SUILineProgressView.swift */,
+				86038754269C44DF00A4C185 /* MediumVerticalRateView.swift */,
 			);
 			name = Views;
 			path = ../../CDL/StatsWidgets/Views;
@@ -2023,6 +2026,7 @@
 				966FE1C1269C227900B8FC20 /* SUILineProgressView.swift in Sources */,
 				966FE1BF269C227900B8FC20 /* VerticalRateView.swift in Sources */,
 				966FE1BE269C227900B8FC20 /* SUICircleView.swift in Sources */,
+				86038755269C44DF00A4C185 /* MediumVerticalRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
